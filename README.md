@@ -7,4 +7,14 @@ I found a lot of tutorials explaining how to connect an Arduino with Raspberry P
 Below sections shell help other makers facing the same or similar problem.
 
 
+##Hardware
+
+* Arduino Uno
+* Raspberry Pi2
+* TMP 36 (Temperature sensor)
+
+
+## Step 1 - Load Standard Firmata into Arduino Uno
+
+
 
