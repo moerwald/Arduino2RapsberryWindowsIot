@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="RemoteTemperature.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RemoteTemperature"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Connection state:" FontSize="30"></TextBlock>
+            <TextBlock x:ConnectionId='1' Text="???" FontSize="20" x:Name="tbConnected"/>
+            <TextBlock></TextBlock>
+            <Button x:ConnectionId='2' x:Name="btOn"                      IsEnabled="False" VerticalAlignment="Stretch">On</Button>
+            <Button x:ConnectionId='3' x:Name="btOff"                       IsEnabled="False" VerticalAlignment="Stretch">Off</Button>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Temperatur:"/>
+                <TextBlock x:ConnectionId='4' x:Name="tbTemperatur" Text="0 C°"/>
+            </StackPanel>
+            
+            
+            
+            <!--<Button Content="Load devices" x:Name="btLoadDevices" Click="BtLoadDevices_OnClick"></Button>
+            <ListView x:Name="ListView">
+            </ListView>-->
+        </StackPanel>
+    </Grid>
+  
+   
+</Page>
+

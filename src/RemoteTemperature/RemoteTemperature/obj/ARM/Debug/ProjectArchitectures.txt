@@ -1,0 +1,1 @@
+C:\Users\amewald\Documents\Visual Studio 2015\Projects\RemoteTemperature\RemoteTemperature\RemoteTemperature.csproj;arm
